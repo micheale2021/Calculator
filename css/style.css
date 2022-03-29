@@ -44,7 +44,7 @@ body{
 }
 
 .button:hover {
-    background-color: #c0c04e;
+    background-color: #fff;
     color: rgb(14, 13, 13);
     transition: 0.5s ease-in-out;
 }
