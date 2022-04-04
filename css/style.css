@@ -24,13 +24,15 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+
+
 .buttons > div {
     border-top: 1px solid #999;
     border-right: 1px solid #999;
 }
 
 .button {
-    border: 0.5px solid #999;
+    /*border: 0.5px solid #999;*/
     line-height: 100px;
     text-align: center;
     font-size: 25px;
@@ -47,4 +49,7 @@ body{
     background-color: #fff;
     color: rgb(14, 13, 13);
     transition: 0.5s ease-in-out;
+	/*transform: skewX(10deg);*/
+    transform:scale(1.2)translateY(-10px);
+	box-shadow: 2px 2px 2px white;
 }
